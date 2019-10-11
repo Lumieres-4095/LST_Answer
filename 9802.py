@@ -16,3 +16,5 @@ for f1 in range(1, 6):
                         print(', {}번째'.format(cnt))
                     else:
                         print('')
+
+print('총 경우의 수: {}가지'.format(cnt))
