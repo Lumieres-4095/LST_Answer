@@ -14,4 +14,4 @@ for a in setBElements:
             print('setA: [ {}, {} ] {}'.format(a, b, len(setB)))
 
 print('n(A) = {}, n(B) = {}'.format(len(setA), len(setB)))
-print('n(A∪ B) = {}'.format(len(setA + setB)))
+print('n(A∪B) = {}'.format(len(setA + setB)))
