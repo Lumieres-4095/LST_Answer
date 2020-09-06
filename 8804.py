@@ -4,14 +4,12 @@ setA, setB = [], []
 for i in range(1, 8):
     for j in range(1, 8):
         if i != j:
-            setA.append([i, j])
-            print('setA: [ {}, {} ] {}'.format(i, j, len(setA)))
+            setA.append(10 * i + j)
 
-for a in setBElements:
-    for b in setBElements:
-        if i != j:
-            setB.append([a, b])
-            print('setA: [ {}, {} ] {}'.format(a, b, len(setB)))
+for k in setBElements:
+    for l in setBElements:
+        if k != l:
+            setB.append(10 * k + l)
 
 print('n(A) = {}, n(B) = {}'.format(len(setA), len(setB)))
-print('n(A∪B) = {}'.format(len(setA + setB)))
+print('n(A∪B) = {}'.format(len(set(setA + setB))))
